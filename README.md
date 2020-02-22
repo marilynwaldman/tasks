@@ -1,6 +1,16 @@
 # Tasks
+## Using POW for authentication 
 
-To start your Phoenix server:
+### follow video here:
+
+https://www.youtube.com/watch?v=hnD0Z0LGMIk
+
+also follow documention in POW:
+
+https://github.com/danschultzer/pow
+
+
+### To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.setup`
