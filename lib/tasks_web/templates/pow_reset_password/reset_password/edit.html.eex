@@ -1,4 +1,4 @@
-<h1>Create Account</h1>
+<h1>Reset password</h1>
 
 <%= form_for @changeset, @action, [as: :user], fn f -> %>
   <%= if @changeset.action do %>
@@ -6,10 +6,6 @@
       <p>Oops, something went wrong! Please check the errors below.</p>
     </div>
   <% end %>
-
-  <%= label f, Pow.Ecto.Schema.user_id_field(@changeset) %>
-  <%= text_input f, Pow.Ecto.Schema.user_id_field(@changeset) %>
-  <%= error_tag f, Pow.Ecto.Schema.user_id_field(@changeset) %>
 
   <%= label f, :password %>
   <%= password_input f, :password %>
@@ -20,10 +16,9 @@
   <%= error_tag f, :password_confirmation %>
 
   <div>
-    <%= submit "Register" %>
+    <%= submit "Submit" %>
   </div>
 <% end %>
 
 
 <span><%= link "Sign in", to: Routes.pow_session_path(@conn, :new) %></span>
-

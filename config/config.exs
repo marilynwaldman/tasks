@@ -29,7 +29,10 @@ config :phoenix, :json_library, Jason
 config :tasks, :pow,
        user: Tasks.Users.User,
        repo: Tasks.Repo,
-       web_module: TasksWeb
+       web_module: TasksWeb,
+       extensions: [PowResetPassword],
+       controller_callbacks: Pow.Extension.Phoenix.ControllerCallbacks,
+       mailer_backend: TasksWeb.PowMailer
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

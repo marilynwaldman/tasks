@@ -66,4 +66,14 @@ defmodule TasksWeb do
   defmacro __using__(which) when is_atom(which) do
     apply(__MODULE__, which, [])
   end
-end
+
+
+  def mailer_view do
+    quote do
+      use Phoenix.View, root: "lib/tasks_web/templates",
+                        namespace: TasksWeb
+
+      use Phoenix.HTML
+    end
+  end
+  end
