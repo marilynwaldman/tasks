@@ -13,6 +13,12 @@ defmodule TasksWeb.Router do
   pipeline :api do
     plug :accepts, ["json"]
   end
+
+  pipeline :protected do
+    plug Pow.Plug.RequireAuthenticated,
+         error_handler: Pow.Phoenix.PlugErrorHandler
+  end
+
   scope "/" do
     pipe_through :browser
 
@@ -25,7 +31,7 @@ defmodule TasksWeb.Router do
   end
 
   scope "/", TasksWeb do
-    pipe_through :browser
+    pipe_through [:browser, :protected]
 
     resources "/todos", TodoController
   end

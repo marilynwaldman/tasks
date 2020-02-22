@@ -4,6 +4,7 @@
     <list default="true" id="cb0da1ea-579f-49ba-925b-05a0e53dbd08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.exs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tasks_web/router.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks_web/router.ex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

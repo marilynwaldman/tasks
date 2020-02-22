@@ -26,7 +26,34 @@ https://github.com/danschultzer/pow
 
     ` mix ecto.migrate`  
     
+4.  Adding route based access control
+
+    add the following to router.ex:
+    
+     ` pipeline :protected do
+          plug Pow.Plug.RequireAuthenticated,
+            error_handler: Pow.Phoenix.PlugErrorHandler
+        end`
+        
+    modify the Todo pipeline to navigate through browser and protected:
+    
+      `scope "/", TasksWeb do
+           pipe_through [:browser, :protected]
+       
+           resources "/todos", TodoController
+         end`  
+5. mix pow.phoenix.gen.templates  - video 14:30
+   so you can style the registration pages
+          `mix pow.phoenix.gen.templates`
           
+          Please add `web_module: TasksWeb` to your configuration - config.exs.
+          
+          config :tasks, :pow,
+            user: Tasks.Users.User,
+            repo: Tasks.Repo,
+            web_module: TasksWeb
+
+             
 
 
     
