@@ -10,6 +10,28 @@ also follow documention in POW:
 https://github.com/danschultzer/pow
 
 
+### Adding crud branch to test authenication (branch tasks_crud)
+
+1.  Create a crud named Todos
+    
+    `mix phx.gen.html Todos Todo todos description:string completed:boolean`
+    
+2.  Update Router 
+
+    Add the resource to your browser scope in lib/tasks_web/router.ex:
+    
+        resources "/todos", TodoController
+        
+3.  Apply the migration
+
+    ` mix ecto.migrate`  
+    
+          
+
+
+    
+
+
 ### To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
