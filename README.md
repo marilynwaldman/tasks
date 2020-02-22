@@ -52,6 +52,16 @@ https://github.com/danschultzer/pow
             user: Tasks.Users.User,
             repo: Tasks.Repo,
             web_module: TasksWeb
+            
+6.  Password resets - video 15:23
+
+https://hexdocs.pm/pow/Mix.Tasks.Pow.Phoenix.Gen.Templates.html 
+
+see extensions
+
+
+
+            
 
              
 
