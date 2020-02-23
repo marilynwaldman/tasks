@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb0da1ea-579f-49ba-925b-05a0e53dbd08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/tasks_web/pow_mailer.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks/users/user.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/users/user.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks_web.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks_web.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks_web/router.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks_web/router.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks_web/templates/pow/registration/new.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks_web/templates/pow/registration/new.html.eex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks_web/templates/pow/session/new.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks_web/templates/pow/session/new.html.eex" afterDir="false" />
-    </list>
+    <list default="true" id="cb0da1ea-579f-49ba-925b-05a0e53dbd08" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
